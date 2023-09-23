@@ -7,7 +7,7 @@ import pandas as pd
 # Streamlit App
 st.title("Visualizations of Mountain Flowers")
 
-data = pd.read_csv(r"G:\我的云端硬盘\Learning\DATA 200\Assignments\Homework4\mountain_flowers.csv")
+data = pd.read_csv(r"mountain_flowers.csv")
 df = pd.DataFrame(data)
 
 # Graph 1: Scatter plot
